@@ -143,6 +143,10 @@ body {
   list-style-type: none;
 }
 
+.team-page {
+  background-color: #FFFFFF;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 20px;
