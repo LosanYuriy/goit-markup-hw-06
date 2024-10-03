@@ -1,56 +1,41 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1, 166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
 }
 
-.logo:hover,
-.logo:focus {
-  color: #4d5ae5;
-}
-
 .logo-black {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21, 166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
 }
 
-.logo-black:hover,
-.logo-black:focus {
-  color: #4d5ae5;
-}
-
 .logo-white {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1, 166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-}
-
-.logo-white:hover,
-.logo-white:focus {
-  color: #4d5ae5;
 }
 
 .navbar-list {
@@ -67,7 +52,11 @@ body {
 
 .navbar:hover,
 .navbar:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+
+.my-address {
+  font-style: normal;
 }
 
 .my-info-list {
@@ -78,13 +67,12 @@ body {
   line-height: 1, 5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
   text-decoration: none;
 }
 
 .my-info:hover,
 .my-info:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .table {
@@ -94,9 +82,10 @@ body {
 .table-text {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 071;
+  line-height: 1, 07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 
 .table-button {
@@ -106,19 +95,20 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   cursor: pointer;
 }
 
 .table-button:hover,
 .table-button:focus {
-  color: #4d5ae5;
-  background-color: #ffffff;
+  color: #404bbf;
 }
 
 .advantages-list {
   list-style-type: none;
+}
+
+.advantages-box {
+  background-color: #ffffff;
 }
 
 .advantages {
@@ -145,6 +135,8 @@ body {
   line-height: 1, 111;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team-list {
@@ -157,6 +149,8 @@ body {
   line-height: 1, 2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team-position {
@@ -191,7 +185,7 @@ body {
   color: #434455;
 }
 
-footer {
+.bottombar {
   background-color: #2e2f42;
 }
 
