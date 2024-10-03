@@ -144,7 +144,7 @@ body {
 }
 
 .team-page {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .team-name {
@@ -169,6 +169,7 @@ body {
   line-height: 1, 111;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 
 .portfolio-list {
