@@ -188,7 +188,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -235,7 +235,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-position {
@@ -272,7 +272,7 @@ img {
   text-transform: capitalize;
   padding-top: 32px;
   padding-left: 16px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -292,5 +292,5 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
