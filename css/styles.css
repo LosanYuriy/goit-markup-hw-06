@@ -395,7 +395,7 @@ img {
   overflow: hidden;
 }
 
-.portfolio-blue-box:hover .up-text {
+.portfolio-item:hover .up-text {
   transform: translateY(0%);
 }
 
