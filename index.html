@@ -541,15 +541,20 @@
             novalidate
             class="bottombar-form"
           >
-            <input type="email" name="email" placeholder="E-mail" />
-            <button type="submit" class="bottombar-button">
-              Subscribe
-              <span>
-                <svg class="bottombar-button-picture" width="24" height="20">
-                  <use href="./images/icons.svg#icon-icon-send"></use>
-                </svg>
-              </span>
-            </button>
+            <label class="bottombar-label">
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="bottombar-email"
+              />
+              <button type="submit" class="bottombar-button">
+                Subscribe                
+                  <svg class="bottombar-button-picture" width="24" height="20">
+                    <use href="./images/icons.svg#icon-icon-send"></use>
+                  </svg>                
+              </button>
+            </label>
           </form>
         </div>
       </div>
@@ -568,11 +573,11 @@
         </p>
         <form class="input-menu-form">
           <div class="input-list-item">
-            <label for="name" class="label-text">Name</label>
+            <label for="user-name" class="label-text">Name</label>
             <div class="input-wrapper">
-              <input type="text" name="name" id="name" class="input-box" />
-              <svg class="input-menu-icon" width="12" height="12">
-                <use href="./images/icons.svg#icon-name-vector"></use>
+              <input type="text" name="user-name" id="user-name" class="input-box" />
+              <svg class="input-menu-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
             </div>
           </div>
@@ -580,8 +585,8 @@
             <label for="phone" class="label-text">Phone</label>
             <div class="input-wrapper">
               <input type="tel" name="phone" id="phone" class="input-box" />
-              <svg class="input-menu-icon" width="12" height="12">
-                <use href="./images/icons.svg#icon-tel-vector"></use>
+              <svg class="input-menu-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </div>
           </div>
@@ -589,19 +594,29 @@
             <label for="email" class="label-text">Email</label>
             <div class="input-wrapper">
               <input type="email" name="email" id="email" class="input-box" />
-              <svg class="input-menu-icon" width="12" height="12">
-                <use href="./images/icons.svg#icon-email-vector"></use>
+              <svg class="input-menu-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
             </div>
           </div>
-          <div class="input-list-item">
-            <label for="textarea" class="label-text">Comment</label>
-            <textarea name="textarea" id="textarea" placeholder="Text input" class="input-menu-textarea"></textarea>
+          <div class="input-list-item input-list-item-textarea">
+            <label for="user-comment" class="label-text">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="input-menu-textarea"
+            ></textarea>
           </div>
           <div class="input-list-item input-checkbox">
-            <input type="checkbox" name="privacy-policy" id="privacy-policy" value="privacy-policy" />
-            <label for="privacy-policy" class="label-privacy-policy">
-              I accept the terms and conditions of the &nbsp
+            <input
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label for="user-privacy" class="label-privacy-policy">
+              I accept the terms and conditions of the
               <a href="" class="input-menu-site">Privacy Policy</a>
             </label>
           </div>
