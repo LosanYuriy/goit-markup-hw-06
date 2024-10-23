@@ -533,7 +533,83 @@
             </li>
           </ul>
         </div>
+        <div class="third-container">
+          <p class="social-text">Subscribe</p>
+          <form
+            name="bottombar-form"
+            autocomplete="on"
+            novalidate
+            class="bottombar-form"
+          >
+            <input type="email" name="email" placeholder="E-mail" />
+            <button type="submit" class="bottombar-button">
+              Subscribe
+              <span>
+                <svg class="bottombar-button-picture" width="24" height="20">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </span>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <!-- backdrop -->
+    <div class="backdrop">
+      <div class="input-menu">
+        <button type="button" class="exit-button">
+          <svg class="exit-button-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <p class="input-menu-form-name">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="input-menu-form">
+          <div class="input-list-item">
+            <label for="name" class="label-text">Name</label>
+            <div class="input-wrapper">
+              <input type="text" name="name" id="name" class="input-box" />
+              <svg class="input-menu-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-name-vector"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="input-list-item">
+            <label for="phone" class="label-text">Phone</label>
+            <div class="input-wrapper">
+              <input type="tel" name="phone" id="phone" class="input-box" />
+              <svg class="input-menu-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-tel-vector"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="input-list-item">
+            <label for="email" class="label-text">Email</label>
+            <div class="input-wrapper">
+              <input type="email" name="email" id="email" class="input-box" />
+              <svg class="input-menu-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-email-vector"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="input-list-item">
+            <label for="textarea" class="label-text">Comment</label>
+            <textarea name="textarea" id="textarea" placeholder="Text input" class="input-menu-textarea"></textarea>
+          </div>
+          <div class="input-list-item input-checkbox">
+            <input type="checkbox" name="privacy-policy" id="privacy-policy" value="privacy-policy" />
+            <label for="privacy-policy" class="label-privacy-policy">
+              I accept the terms and conditions of the &nbsp
+              <a href="" class="input-menu-site">Privacy Policy</a>
+            </label>
+          </div>
+          <div class="input-list-item">
+            <button type="submit" class="input-menu-button-send">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>

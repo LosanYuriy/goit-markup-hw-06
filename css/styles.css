@@ -508,3 +508,241 @@ img {
 .sothial-items-href-bottom:focus {
   background-color: #31d0aa;
 }
+
+.third-container {
+  width: 453px;
+  height: 80px;
+  margin-left: 80px;
+}
+
+.bottombar-form {
+  display: flex;
+}
+
+.bottombar-form input[type="email"] {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #2e2f42;
+  padding-left: 16px;
+}
+
+.bottombar-form input[type="email"]:placeholder-shown {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.bottombar-button {
+  border-radius: 4px;
+  border: none;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bottombar-button-picture {
+  fill: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+/* input-menu */
+.backdrop {
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7));
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-menu {
+  width: 408px;
+    height: 584px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+        0 2px 1px 0 rgba(0, 0, 0, 0.2);
+        background: #fcfcfc;
+          border-radius: 4px;
+          padding: 24px;
+}
+
+.input-menu.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.exit-button {
+  width: 24px;
+  height: 24px;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.exit-button-svg {
+  fill: #2e2f42;
+}
+
+.input-menu-form-name {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.input-list-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.input-list-item:first-child {  
+  margin-top: 16px;
+}
+
+.input-list-item:last-child {
+  margin-top: 24px;
+}
+
+.label-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-box {
+  outline: transparent; 
+  width: 100%;
+  padding-left: 38px;
+  height: 40px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    transition: border 2500ms (0.4, 0, 0.2, 1);
+}
+
+.input-box:focus {
+border-color: #4d5ae5;
+}
+
+.input-box:focus + .input-menu-icon {
+  fill: #4d5ae5;
+}
+
+.input-menu-icon {
+position: absolute;
+  left: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-menu-textarea {  
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 360px;
+      height: 120px;
+      outline: transparent;
+      padding: 8px 16px;
+}
+
+.input-menu-form textarea::placeholder {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  opacity: 40%;  
+}
+
+.input-menu-textarea:focus {
+border-color: #4d5ae5;
+}
+
+.input-checkbox {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.label-privacy-policy {  
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.privacy-policy-span {
+  line-height: 133%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--iris);
+}
+
+.input-menu-site {
+  line-height: 133%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
+.input-menu-button-send {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  border: none;  
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
