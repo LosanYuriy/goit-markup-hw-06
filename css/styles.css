@@ -737,7 +737,13 @@ img {
   margin-bottom: 24px;
 }
 
-.invisibility-box {
+.invisibility-box:checked .privacy-policy-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -759,11 +765,8 @@ img {
   color: #8e8f99;
 }
 
-input[type="checkbox"] {
-  margin-right: 8px;
-}
-
 .privacy-policy-span {
+  width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
