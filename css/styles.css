@@ -786,7 +786,7 @@ img {
 }
 
 .privacy-policy-svg {
-  fill: #fcfcfc;
+  fill: transparent;
 }
 
 .invisibility-box:checked + .label-privacy-policy > .privacy-policy-svg {
