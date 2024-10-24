@@ -578,13 +578,20 @@ img {
   width: 100%;
   height: 100%;
   z-index: 999;
-  opacity: 1;
-  pointer-events: auto;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-menu {
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.maodal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -639,7 +646,6 @@ img {
 }
 
 .input-menu-form-name {
-  margin-top: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -737,7 +743,7 @@ img {
   margin-bottom: 24px;
 }
 
-.invisibility-box:checked .privacy-policy-span {
+.invisibility-box:checked + label .privacy-policy-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -776,10 +782,17 @@ img {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
+  margin-right: 8px;
 }
 
 .privacy-policy-svg {
+  fill: #fcfcfc;
+}
+
+.invisibility-box:checked + .label-privacy-policy > .privacy-policy-svg {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .input-menu-site {

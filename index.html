@@ -60,7 +60,7 @@
       <section class="table">
         <div class="container">
           <h1 class="table-text">Effective Solutions for Your Business</h1>
-          <button type="button" class="table-button">Order Service</button>
+          <button type="button" class="table-button" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -562,9 +562,9 @@
 
     <!-- backdrop -->
 
-    <div class="backdrop">
-      <div class="input-menu">
-        <button type="button" class="exit-button">
+    <div class="backdrop " data-modal>
+      <div class="maodal">
+        <button type="button" class="exit-button" data-modal-close>
           <svg class="exit-button-svg" width="8" height="8">
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
@@ -625,7 +625,7 @@
             <label for="user-privacy" class="label-privacy-policy">
               <span class="privacy-policy-span">
                 <svg class="privacy-policy-svg" width="10" height="8">
-                  <use href="./images/icons.svg#icon-Checkbox"></use>
+                  <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
@@ -636,5 +636,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
