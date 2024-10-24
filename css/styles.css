@@ -783,10 +783,11 @@ img {
   align-items: center;
   justify-content: center;
   margin-right: 8px;
+  fill: transparent;
 }
 
 .privacy-policy-svg {
-  fill: transparent;
+  
 }
 
 .invisibility-box:checked + .label-privacy-policy > .privacy-policy-svg {
