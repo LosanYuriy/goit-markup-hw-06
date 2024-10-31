@@ -21,14 +21,18 @@
   </head>
 
   <body>
-    <!-- header -->
     <header class="header-wrap">
       <div class="container container-header">
         <nav class="nav-wrap">
           <a class="logo" href="./index.html"
             >Web<span class="logo-black">Studio</span></a
           >
-          <ul class="navbar-list">
+          <button type="button" class="header-button">
+            <svg class="header-button-svg" width="16.8" height="14.4">
+              <use href="./images/icons.svg#icon-Group"></use>
+            </svg>
+          </button>
+          <ul class="navbar-list visually-hidden">
             <li class="navbar-iteam">
               <a class="navbar active" href="./index.html">Studio</a>
             </li>
@@ -38,7 +42,7 @@
             <li class="navbar-iteam"><a class="navbar" href="">Contacts</a></li>
           </ul>
         </nav>
-        <address class="my-address">
+        <address class="my-address visually-hidden">
           <ul class="my-info-list">
             <li>
               <a class="my-info" href="mailto:info@devstudio.com"
@@ -56,18 +60,18 @@
     </header>
 
     <main>
-      <!-- section one -->
       <section class="table">
         <div class="container">
           <h1 class="table-text">Effective Solutions for Your Business</h1>
-          <button type="button" class="table-button" data-modal-open>Order Service</button>
+          <button type="button" class="table-button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
-      <!-- section two -->
       <section class="advatages-section">
         <div class="container">
-          <h2 class="our-advatages">Our advantages</h2>
+          <h2 class="visually-hidden">Our advantages</h2>
           <ul class="advantages-list">
             <li class="advantages-box">
               <div class="svg-box">
@@ -121,7 +125,6 @@
         </div>
       </section>
 
-      <!-- section three -->
       <section class="table-team">
         <div class="container">
           <h2 class="team">Our Team</h2>
@@ -354,7 +357,6 @@
         </div>
       </section>
 
-      <!-- section four -->
       <section class="portfolio-section">
         <div class="container">
           <h2 class="portfolio">Our Portfolio</h2>
@@ -472,7 +474,6 @@
       </section>
     </main>
 
-    <!-- footer -->
     <footer class="bottombar">
       <div class="container bottom-container">
         <div class="first-container">
@@ -562,7 +563,7 @@
 
     <!-- backdrop -->
 
-    <div class="backdrop " data-modal>
+    <div class="backdrop" data-modal>
       <div class="maodal">
         <button type="button" class="exit-button" data-modal-close>
           <svg class="exit-button-svg" width="8" height="8">
@@ -628,8 +629,10 @@
                   <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="" class="input-menu-site">Privacy Policy</a>
+              <div class="privacy-policy-text">
+                I accept the terms and conditions of the
+                <a href="" class="input-menu-site">Privacy Policy</a>
+              </div>
             </label>
           </div>
           <button type="submit" class="input-menu-button-send">Send</button>
