@@ -68,10 +68,6 @@ img {
   overflow: hidden;
 }
 
-.hidden {
-  visibility: hidden;
-}
-
 /* ---------------------------------header----------------------------- */
 .header-wrap {
   border-bottom: 1px solid --cornflower;
@@ -1372,7 +1368,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1158) {
+@media screen and (min-width: 1158px) {
   .input-menu-textarea {
     width: 360px;
   }
