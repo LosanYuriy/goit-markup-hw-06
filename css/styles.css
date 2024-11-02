@@ -207,61 +207,61 @@ img {
 
 @media screen and (min-width: 1158px) {
   .nav-wrap {
-      display: flex;
-      align-items: center;
-    }
+    display: flex;
+    align-items: center;
+  }
 
-     .header-button {
-       display: none;
-     }
-  
-     .navbar-list {
-       display: flex;
-       align-items: center;
-       gap: 40px;
-     }
+  .header-button {
+    display: none;
+  }
+
+  .navbar-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
   .header-logo {
     margin-right: 76px;
   }
 
-.navbar {
-  display: block;
-  font-weight: 500;
-  line-height: 1.5;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-  padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  .navbar {
+    display: block;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.active {
-  color: var(--ocean);
-  position: relative;
-}
+  .active {
+    color: var(--ocean);
+    position: relative;
+  }
 
-.navbar:hover,
-.navbar:focus {
-  color: var(--ocean);
-}
+  .navbar:hover,
+  .navbar:focus {
+    color: var(--ocean);
+  }
 
-.navbar-iteam:first-child .navbar::after {
-  content: "";
-  display: inline-block;
-  border-radius: 2px;
-  width: 48px;
-  height: 4px;
-  background: var(--ocean);
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-}
+  .navbar-iteam:first-child .navbar::after {
+    content: "";
+    display: inline-block;
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background: var(--ocean);
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
 
-.my-address {
-  display: block;
-  font-style: normal;
-}
+  .my-address {
+    display: block;
+    font-style: normal;
+  }
 
   .my-info-list {
     display: flex;
@@ -281,10 +281,10 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-     .my-info:hover,
-     .my-info:focus {
-       color: #404bbf;
-     }
+  .my-info:hover,
+  .my-info:focus {
+    color: #404bbf;
+  }
 }
 
 /* --------------------------------table-------------------------------- */
@@ -331,9 +331,11 @@ img {
 
 @media (min-resolution: 192dpi) {
   .table {
-    background-image: linear-gradient(to bottom,
+    background-image: linear-gradient(
+        to bottom,
         rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/people-office-tab-2x.jpg);
   }
 }
@@ -342,18 +344,22 @@ img {
   .table {
     max-width: 1440px;
     padding: 188px 0;
-    background-image: linear-gradient(to bottom,
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office.jpg);
   }
 }
 
 @media (min-resolution: 192dpi) {
   .table {
-    background-image: linear-gradient(to bottom,
+    background-image: linear-gradient(
+        to bottom,
         rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
+        rgba(46, 47, 66, 0.7)
+      ),
       url(../images/people-office-2x.jpg);
   }
 }
@@ -383,7 +389,7 @@ img {
 @media screen and (min-width: 1158px) {
   .table-text {
     font-size: 56px;
-      line-height: 107%;
+    line-height: 107%;
     margin-bottom: 48px;
     max-width: 496px;
   }
@@ -780,7 +786,7 @@ img {
 
 @media screen and (min-width: 1158px) {
   .bottom-container {
-    column-gap: 0;    
+    column-gap: 0;
   }
 }
 
@@ -800,7 +806,7 @@ img {
 @media screen and (min-width: 1158px) {
   .first-container {
     width: 264px;
-      margin-bottom: 0;
+    margin-bottom: 0;
     margin-right: 120px;
   }
 }
